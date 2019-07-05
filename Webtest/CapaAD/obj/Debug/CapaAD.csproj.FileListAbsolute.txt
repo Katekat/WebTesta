@@ -1,0 +1,9 @@
+C:\Users\Katherine Flores\source\repos\NewRepo\Webtest\CapaAD\bin\Debug\CapaAD.dll
+C:\Users\Katherine Flores\source\repos\NewRepo\Webtest\CapaAD\bin\Debug\CapaAD.pdb
+C:\Users\Katherine Flores\source\repos\NewRepo\Webtest\CapaAD\bin\Debug\CapaModelo.dll
+C:\Users\Katherine Flores\source\repos\NewRepo\Webtest\CapaAD\bin\Debug\CapaModelo.pdb
+C:\Users\Katherine Flores\source\repos\NewRepo\Webtest\CapaAD\obj\Debug\CapaAD.csprojAssemblyReference.cache
+C:\Users\Katherine Flores\source\repos\NewRepo\Webtest\CapaAD\obj\Debug\CapaAD.csproj.CoreCompileInputs.cache
+C:\Users\Katherine Flores\source\repos\NewRepo\Webtest\CapaAD\obj\Debug\CapaAD.csproj.CopyComplete
+C:\Users\Katherine Flores\source\repos\NewRepo\Webtest\CapaAD\obj\Debug\CapaAD.dll
+C:\Users\Katherine Flores\source\repos\NewRepo\Webtest\CapaAD\obj\Debug\CapaAD.pdb

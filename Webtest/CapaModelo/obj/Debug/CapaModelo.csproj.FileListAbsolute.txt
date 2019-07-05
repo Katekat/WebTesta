@@ -1,0 +1,5 @@
+C:\Users\Katherine Flores\source\repos\NewRepo\Webtest\CapaModelo\bin\Debug\CapaModelo.dll
+C:\Users\Katherine Flores\source\repos\NewRepo\Webtest\CapaModelo\bin\Debug\CapaModelo.pdb
+C:\Users\Katherine Flores\source\repos\NewRepo\Webtest\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
+C:\Users\Katherine Flores\source\repos\NewRepo\Webtest\CapaModelo\obj\Debug\CapaModelo.dll
+C:\Users\Katherine Flores\source\repos\NewRepo\Webtest\CapaModelo\obj\Debug\CapaModelo.pdb

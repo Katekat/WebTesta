@@ -1,0 +1,80 @@
+﻿@model IEnumerable<CapaModelo.cUsuario>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Lisado de usuarios</h2>
+
+
+<div class="container-fluid">
+    <div>
+        <a class="btn btn-primary" href="@Url.Action("Create", "Users")">Nuevo</a>
+    </div>
+    <div class="panel-body table-responsive">
+        <table class="table table-striped">
+            <tr>
+                <th>
+                    id
+                </th>
+                <th>
+                    Nombre
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    Contraseña
+                </th>
+                <th>
+                    Estatus
+                </th>
+
+    
+                <th colspan="1" align="center">Options</th>
+            </tr>
+
+            @if (Model != null)
+            {
+                foreach (var item in Model)
+                {
+            <tr>
+                <td>
+                    @item.Id
+                </td>
+                <td>
+                    @item.Nombre
+                </td>
+                <td>
+                    @item.Email
+                </td>
+                <td>
+                    @item.Password
+                </td>
+                @if (item.Estatus == 1)
+                {
+                    <td>
+                        Activo
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        Inactivo
+                    </td>
+
+                }
+
+                <td>
+
+                    <a class="" href="@Url.Action("Update", "Users", new { @id=item.Id})"> Editar |</a>
+                    <a class="" href="@Url.Action("Delete", "Users", new { @id=item.Id})"> Eliminar</a>
+                </td>
+            </tr>
+                }
+            }
+
+
+        </table>
+    </div>
+</div>

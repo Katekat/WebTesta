@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "SinAutorizacion";
+}
+<section>
+    <h2>SinAutorizacion</h2>
+    <div>
+        <h2 class="headline text-red">Error</h2>
+        <h3><i class="fa fa-warning text-red"> Sin autorización</i> </h3>
+        @if (ViewBag.accion != "")
+        {
+            <p>Operacion @ViewBag.accion</p>
+        }
+        @if (ViewBag.modulo != "")
+        {
+            <p>Modulo @ViewBag.modulo</p>
+        }
+        @if (ViewBag.msjError != "")
+        {
+            <p>Modulo @ViewBag.msjError</p>
+        }
+    </div>
+</section>
+
+
+
